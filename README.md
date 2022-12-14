@@ -8,14 +8,27 @@ Group 4
 
 ## First Segment 
 
-Supervised Classification Model will answer how likely are you to buy an Electric Vehicle based on your income? Will you buy: Yes or No?
-Decision Tree using info from census excel data (Balanced random forest/Easy AdaBoost Classifier) 
+
 Datasets median income & registered number of EV vehicles in county
 
-Supervised Regression Model to forecast # of charging stations needed in the future. 
-Factors: Number of EV car sales, charging station dataset
+*Supervised Classification Model will answer how likely are you to buy an Electric Vehicle based on your income and location? Will you buy: Yes or No?*
 
+Planning to have a precision and recall threshold of above 50% for model created. 
 
+Inputs - EV's registered in county (zip code), household income by county (2020, 2021), # of charging stations in county, access_code,
+fuel_type_code, registration_valid_date, vehicle_name
+
+Outputs - 0 = "No, will not buy", 1 = "Yes will buy" 
+
+Possibly create decision tree using info from tables (Balanced random forest/Easy AdaBoost Classifier) 
+
+*Supervised Regression Model to forecast # of charging stations needed by county in the future.* 
+
+~~Factors: Number of EV car sales, charging station dataset~~
+
+Inputs - Count of EV registration in county, number of predicted buyers from suprevised classification model, ratio of users to each charging station? 
+
+Outputs - graph showing predicted growth of EV cars along with number of charging stations. 
 
 Table 1: Alternative_Fueling_Station:
 longitude
