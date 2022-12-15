@@ -10,9 +10,9 @@ Group 4
 
 # Charging Station Investment 
 
-How does household income impact EV vehicle sales? That should directly impact the investment on charging stations.
+**How does household income impact EV vehicle sales? That should directly impact the investment on charging stations.
 Using ML, we will see the trend between income, EV population and EV charging stations.
-We will forecast the requirement of EV charging stations needed.
+We will forecast the requirement of EV charging stations needed.**
 
 
 #### Electric vehicles are the future!
