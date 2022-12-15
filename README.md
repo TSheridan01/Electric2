@@ -26,8 +26,6 @@ Possibly create decision tree using info from tables (Balanced random forest/Eas
 
 *Supervised Regression Model to forecast # of charging stations needed by county in the future.* 
 
-~~Factors: Number of EV car sales, charging station dataset~~
-
 Inputs - Count of EV registration in county, number of predicted buyers from suprevised classification model, ratio of users to each charging station? 
 
 Outputs - graph showing predicted growth of EV cars along with number of charging stations. 
