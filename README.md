@@ -8,8 +8,6 @@ Group 4
 
 ## Selected Topic 
 
-Our Team will be 
-
 
 Datasets median income & registered number of EV vehicles in county
 
@@ -94,6 +92,8 @@ By 2035, these major brands have pledged to go *ELECTIRC*.
 # Database
 
 The data for our analysis is sourced from official agencies, such as the ‘Alternative Fuel Data Center’, ‘The U.S. Bureau of Economic Analysis’ & ‘The Atlas Data Hub’ as well as private sources that may have pertinent data. 
+
+We will be using Postgres Database on AWS. 
 
 
 An ERD diagram was created to show connections between **Electric Vehicle Registrations** to **County** to **EV Charging Stations**. 
