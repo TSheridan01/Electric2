@@ -94,6 +94,9 @@ By 2035, these major brands have pledged to go *ELECTIRC*.
 
 # Database
 
+The data for our analysis is sourced from official agencies, such as the ‘Alternative Fuel Data Center’, ‘The U.S. Bureau of Economic Analysis’ & ‘The Atlas Data Hub’ as well as private sources that may have pertinent data. 
+
+
 An ERD diagram was created to show connections between **Electric Vehicle Registrations** to **County** to **EV Charging Stations**. 
 See ERD below.
 
