@@ -10,6 +10,11 @@ Group 4
 
 # Charging Station Investment 
 
+How does household income impact EV vehicle sales? That should directly impact the investment on charging stations.
+Using ML, we will see the trend between income, EV population and EV charging stations.
+We will forecast the requirement of EV charging stations needed.
+
+
 #### Electric vehicles are the future!
 
 Electric vehicles (EVs) offer an opportunity to replace fossil fuels in the transport sector. Electrification of the transport sector can also bring benefits in terms of increased energy efficiency and reduced local pollution.
