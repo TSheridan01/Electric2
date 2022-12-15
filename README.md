@@ -88,6 +88,6 @@ By 2035, these major brands have pledged to go *ELECTIRC*.
 
 
 
-
+![image](https://github.com/TSheridan01/Electric2/blob/5ac605bee43303fa88732d96de8f2f40c228a218/Images/OEMMarketShare.png)
 
 
