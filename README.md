@@ -94,7 +94,7 @@ By 2035, these major brands have pledged to go *ELECTIRC*.
 
 # Database
 
-An ERD diagram was created to show connections between Electric Vehicle Registrations to County to EV Charging Stations. 
+An ERD diagram was created to show connections between **Electric Vehicle Registrations** to **County** to **EV Charging Stations**. 
 See ERD below.
 
 
