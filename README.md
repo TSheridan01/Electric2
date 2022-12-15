@@ -1,13 +1,12 @@
-# Electric2
+# Electric
 Group 4 
 
 
-# Electric.
 
 ![image](https://github.com/TSheridan01/Electric2/blob/1122ea20914e10c1787b96e5cf800c9d38a6615b/Images/Bolt1.png)
 
 
-## First Segment 
+## Selected Topic 
 
 
 Datasets median income & registered number of EV vehicles in county
