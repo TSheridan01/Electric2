@@ -65,6 +65,16 @@ See ERD below.
 
 
 
+## Data Cleaning 
+
+Our team found public data that contained registration data on a state by state basis over Electric Vehicles. We used Jupyter Notebook to clean the date 
+
+We pulled EV Registration data from California, Florida, Michigan, New York, Texas and New Jersey and cleaned it down to the format of County - Registration Date - Make/Model, as shown below.
+
+![image](https://github.com/TSheridan01/Electric2/blob/c7d4acf613f3db4d1138cc520b001e60e751e239/Images/Mi%20ScreenShot.png)
+
+
+
 # Machine Learning 
 
 
