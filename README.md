@@ -82,6 +82,12 @@ Our team also pulled Open Source data with Charging Station Location and cleaned
 - [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
 
 
+### In Progress
+
+Our team is working to separate extract from the column of County and State in the Count Data set. 
+California registration data needs to be pushed to Tableev_registration 
+
+
 
 
 # Machine Learning 
