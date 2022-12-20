@@ -75,6 +75,9 @@ We pulled EV Registration data from California, Florida, Michigan, New York, Tex
 
 
 
+[County Income Data] (https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas)
+
+
 # Machine Learning 
 
 
