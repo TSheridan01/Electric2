@@ -82,15 +82,6 @@ Our team also pulled Open Source data with Charging Station Location and cleaned
 - [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
 
 
-## Dashboard  
-
-Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
-
-- Correlation between county income and the quantity of EV Registrations
-- Average Income and Charging Station Locations 
-- Using raw data to show current EV Charging locations 
-
-Our tool will be used for OEMs to view income trends and project where new charging station will be installed.
 
 
 # Machine Learning 
@@ -129,6 +120,15 @@ Table 3: EV_registration:
 county, registration_valid_date, vehicle_name
 
 
+## Dashboard  
+
+Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
+
+- Correlation between county income and the quantity of EV Registrations
+- Average Income and Charging Station Locations 
+- Using raw data to show current EV Charging locations 
+
+Our tool will be used for OEMs to view income trends and project where new charging station will be installed.
 
 
 
