@@ -75,9 +75,9 @@ We pulled EV Registration data from California, Florida, Michigan, New York, Tex
 
 
 
-[County Income Data](https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas)
-[State EV Registration](https://www.atlasevhub.com/materials/state-ev-registration-data/#data)
-[Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
+- [County Income Data](https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas)
+- [State EV Registration](https://www.atlasevhub.com/materials/state-ev-registration-data/#data)
+- [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
 
 
 # Machine Learning 
