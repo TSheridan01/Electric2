@@ -85,7 +85,7 @@ Our team also pulled Open Source data with Charging Station Location and cleaned
 ### In Progress
 
 Our team is working to separate extract from the column of County and State in the Count Data set. 
-California registration data needs to be pushed to Tableev_registration 
+California registration data needs to be pushed to Table ev_registration 
 
 
 
