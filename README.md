@@ -73,7 +73,7 @@ We pulled EV Registration data from California, Florida, Michigan, New York, Tex
 
 ![image](https://github.com/TSheridan01/Electric2/blob/c7d4acf613f3db4d1138cc520b001e60e751e239/Images/Mi%20ScreenShot.png)
 
-Our team also pulled data with Charging Station Location and cleaned it into a format that shows County - Access Code - Fuel Type
+Our team also pulled Open Source data with Charging Station Location and cleaned it into a format that shows County - Access Code - Fuel Type
 
 
 
