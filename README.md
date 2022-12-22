@@ -108,11 +108,12 @@ California registration data needs to be pushed to Table ev_registration
 
 # Machine Learning 
 
-From ev_registration table we used k-means clustering to classify our unlabeled data. 
+From ev_registration table we used k-means clustering to classify our unlabeled data. ML_Test_Code.ipynb holds our code for this model.
 
 We have six states EV Registrations data, we will combine with household income data, which will be our train model. Using this we will predict the EV Registrations in other states. 
 
 We will combine our household income with charging stations by County to classify our unsupervised learning. 
+ 
 
 
 
