@@ -64,7 +64,15 @@ See ERD below.
 ![image](https://github.com/TSheridan01/Electric2/blob/ca46e6ac2f124243c01026ec6c34847654872e11/Images/QuickDBD-export_v1.png)
 
 
-#### Our Database is being housed in Postgres.
+#### Our Database is being housed in Postgres. Our Team all has access to this database. 
+
+![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/county_static.PNG)
+
+![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/ev_registration.PNG)
+
+![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/income_table.PNG)
+
+The fourth table we are working to load, 'Alternative_Fueling_Stations'
 
 
 ## Data Cleaning 
