@@ -66,10 +66,13 @@ See ERD below.
 
 #### Our Database is being housed in Postgres. Our Team all has access to this database. 
 
+county
 ![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/county_static.PNG)
 
+ev_registration
 ![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/ev_registration.PNG)
 
+household_income
 ![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/income_table.PNG)
 
 The fourth table we are working to load, 'Alternative_Fueling_Stations'
