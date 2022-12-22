@@ -64,6 +64,9 @@ See ERD below.
 ![image](https://github.com/TSheridan01/Electric2/blob/ca46e6ac2f124243c01026ec6c34847654872e11/Images/QuickDBD-export_v1.png)
 
 
+#### Our Database is being housed in Postgres.
+
+
 ## Data Cleaning 
 
 Our team found public data that contained registration data on a state by state basis over Electric Vehicles. We used Jupyter Notebook to clean the date 
