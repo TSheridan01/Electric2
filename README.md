@@ -176,7 +176,7 @@ Tableau is the Data Visualization Tool currently being used for our Project and 
 Our tool will be used for OEMs to view income trends and project where new charging station will be installed.
 
 
-The following image is from Tableau showing a map of Charging Stations currently located in the United States. This data was taken from the source file. We are planning to use the Alternative Fueling Table to depict this graphic. 
+The following image is from Tableau showing a map of Charging Stations currently located in the United States. This data was taken from the source file. We are planning to use the Alternative Fueling Table to depict this graphic. We will present our findings to Car Manufacturers as well as those looking to invest in Electric Charging Stations. 
 
 ![image](https://github.com/TSheridan01/Electric2/blob/4d3bbadc5b7e760e0176841ca6dad822771dee08/Images/CStations1.png)
 
