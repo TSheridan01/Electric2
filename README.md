@@ -175,6 +175,8 @@ Tableau is the Data Visualization Tool currently being used for our Project and 
 
 Our tool will be used for OEMs to view income trends and project where new charging station will be installed.
 
+The tableau story link is [here](https://public.tableau.com/app/profile/megha.jain5255/viz/ElectricChargingStations/Needchargingstations)
+We started with the following but we will be connecting our different tables by county to suggest the EV registrations and charging stations trend based on household income.
 
 The following image is from Tableau showing a map of Charging Stations currently located in the United States. This data was taken from the source file. We are planning to use the Alternative Fueling Table to depict this graphic. We will present our findings to Car Manufacturers as well as those looking to invest in Electric Charging Stations. 
 
