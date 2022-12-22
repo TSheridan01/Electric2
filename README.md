@@ -53,7 +53,7 @@ By 2035, these major brands have pledged to go *ELECTIRC*.
 
 The data for our analysis is sourced from official agencies, such as the ‘Alternative Fuel Data Center’, ‘The U.S. Bureau of Economic Analysis’ & ‘The Atlas Data Hub’ as well as private sources that may have pertinent data. 
 
-We will be using Postgres Database on AWS. 
+We will be using Postgres Database on AWS. Our team all has access to the database. 
 
 
 An ERD diagram was created to show connections between **Electric Vehicle Registrations** to **County** to **EV Charging Stations**. 
