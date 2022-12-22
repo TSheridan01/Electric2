@@ -127,6 +127,10 @@ county, registration_valid_date, vehicle_name
 
 ## Presentation   
 
+
+- [Slides](https://docs.google.com/presentation/d/1Kmcz95mzre-Fv05gxPSwaaPtrRXq5b-j/edit#slide=id.p1)
+
+
 Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
 
 - Correlation between county income and the quantity of EV Registrations
