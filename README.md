@@ -125,7 +125,7 @@ Table 3: EV_registration:
 county, registration_valid_date, vehicle_name
 
 
-## Dashboard  
+## Presentation   
 
 Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
 
@@ -137,6 +137,12 @@ Our tool will be used for OEMs to view income trends and project where new charg
 
 
 ![image](https://github.com/TSheridan01/Electric2/blob/4d3bbadc5b7e760e0176841ca6dad822771dee08/Images/CStations1.png)
+
+
+![image](https://github.com/TSheridan01/Electric2/blob/609ca33c5ad7eaf08c8295b29bb29bad4128f675/Images/Slides1.png)
+
+
+![image](https://github.com/TSheridan01/Electric2/blob/609ca33c5ad7eaf08c8295b29bb29bad4128f675/Images/Slides2.png)
 
 
 
