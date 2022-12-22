@@ -61,7 +61,31 @@ See ERD below.
 
 
 
-![image](https://github.com/TSheridan01/Electric2/blob/37382abf37ab2775edad720611367b26f2c89717/Resources/QuickDBD-export.png)
+![image](https://github.com/TSheridan01/Electric2/blob/ca46e6ac2f124243c01026ec6c34847654872e11/Images/QuickDBD-export_v1.png)
+
+
+## Data Cleaning 
+
+Our team found public data that contained registration data on a state by state basis over Electric Vehicles. We used Jupyter Notebook to clean the date 
+
+We pulled EV Registration data from California, Florida, Michigan, New York, Texas and New Jersey and cleaned it down to the format of County - Registration Date - Make/Model, as shown below.
+
+![image](https://github.com/TSheridan01/Electric2/blob/c7d4acf613f3db4d1138cc520b001e60e751e239/Images/Mi%20ScreenShot.png)
+
+Our team also pulled Open Source data with Charging Station Location and cleaned it into a format that shows County - Access Code - Fuel Type
+
+
+
+- [County Income Data](https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas)
+- [State EV Registration](https://www.atlasevhub.com/materials/state-ev-registration-data/#data)
+- [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
+
+
+### In Progress
+
+Our team is working to separate extract from the column of County and State in the Count Data set. 
+California registration data needs to be pushed to Table ev_registration 
+
 
 
 
@@ -101,7 +125,18 @@ Table 3: EV_registration:
 county, registration_valid_date, vehicle_name
 
 
+## Dashboard  
 
+Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
+
+- Correlation between county income and the quantity of EV Registrations
+- Average Income and Charging Station Locations 
+- Using raw data to show current EV Charging locations 
+
+Our tool will be used for OEMs to view income trends and project where new charging station will be installed.
+
+
+![image](https://github.com/TSheridan01/Electric2/blob/4d3bbadc5b7e760e0176841ca6dad822771dee08/Images/CStations1.png)
 
 
 
