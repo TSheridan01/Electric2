@@ -199,6 +199,16 @@ Quick Database Diagrams
 
 Tableau
 
+Our Puython Installs Include:
+
+import pandas as pd
+import matplotlib as plt
+import sklearn as skl
+import tensorflow as tf
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler,OneHotEncoder
+import psycopg2
+from sqlalchemy import create_engine
 
 
 
