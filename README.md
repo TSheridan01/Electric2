@@ -199,7 +199,7 @@ Quick Database Diagrams
 
 Tableau
 
-Our Puython Installs Include:
+Our Python Installs Include:
 
 - import pandas as pd
 - import matplotlib as plt
