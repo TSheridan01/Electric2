@@ -21,7 +21,7 @@ Electric vehicles (EVs) offer an opportunity to replace fossil fuels in the tran
 
 Cars and trucks produce nearly one-fifth of America’s greenhouse-gas emissions, all of which must be eliminated to achieve the federal target of net-zero emissions by 2050. Although electric-vehicle (EV) sales in the United States have climbed by more than 40 percent each year, on average, since 2016, nearly half of US consumers say that battery or charging issues are their top concerns about buying EVs.
 
-#### Our Current Status: We have begun polishing our presentation slides. We are currently working on finazling best practice for Machine Learning and creating our Tableau Dashboard in order to visual our results. 
+#### Our Current Status: We have begun cleaning our presentation slides. We are currently working on finazling best practice for Machine Learning and creating our Tableau Dashboard in order to visual our results. We are also working on adding more data to our Deep Learning.
 
 
 # EV Landscape 
