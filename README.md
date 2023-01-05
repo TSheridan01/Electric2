@@ -124,9 +124,10 @@ For Deep learning modle the data was broken up by a random state of 78 into trai
 
 
 ## Explanation of model choice, including limitations and benefits 
-Liner regression as we wanted to see the impact of income on EV adoption, and then the impact of income and EVs adoptions impact on charging stations count
+- Liner regression as we wanted to see the impact of income on EV adoption, and then the impact of income and EVs adoptions impact on charging stations count
 Unsupervised models were used to see the clusters of income , EV adoptions and gfueling stations count
-Deep learning was used to find the relation with unsummarized data 
+
+- Deep learning was used to find the relation with unsummarized data 
 Neural networks are prone to overfitting and can be more difficult to train than a straightforward logistic regression model
 Deep learning also required lot of rows to train
 
@@ -134,8 +135,10 @@ Deep learning also required lot of rows to train
 We started out with linear, and wanted to see clusters with the unspervised, and needed to see relationships using unsummarized data with deep learning model
 
 ## Description of how they have trained the model thus far, and any additional training that will take place 
-In Linear, total household income column was reshaped and then fit into the model along with EVs count
-In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict. For Deep Learning data was encoded to create all numerical values and scaled to size. Once input into the model "relu" and "sigmoid" activation functions were used in neural network to enable data to learn and a binary cross entrpy loss calculation was used. 
+- In Linear, total household income column was reshaped and then fit into the model along with EVs count
+In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict.  
+
+- For Deep Learning data was encoded to create all numerical values and scaled to size. Once input into the model "relu" and "sigmoid" activation functions were used in neural network to enable data to learn and a binary cross entrpy loss calculation was used. 
 
 ## Description of current accuracy score 
 Accuracy score of model was predicting if a county had a charging station was 99%. 
