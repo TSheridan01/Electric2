@@ -120,7 +120,8 @@ Deep learning
 
 ## Description of how data was split into training and testing sets
 For linear, K means and hierarchical, data is not divided into training and testing. Best features were picked using PCA in unsupervised
-For Deep learning, ???
+For Deep learning modle the data was broken up by a random state of 78 into training and testing data. 
+
 
 ## Explanation of model choice, including limitations and benefits 
 Liner regression as we wanted to see the impact of income on EV adoption, and then the impact of income and EVs adoptions impact on charging stations count
@@ -134,8 +135,7 @@ We started out with linear, and wanted to see clusters with the unspervised, and
 
 ## Description of how they have trained the model thus far, and any additional training that will take place 
 In Linear, total household income column was reshaped and then fit into the model along with EVs count
-In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict
-For deep learning module the data was broken up by a random state of 78 into the model from training and testing data. 
+In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict. For Deep Learning data was encoded to create all numerical values and scaled to size. Once input into the model "relu" and "sigmoid" activation functions were used in neural network to enable data to learn and a binary cross entrpy loss calculation was used. 
 
 ## Description of current accuracy score 
 Accuracy score of model was predicting if a county had a charging station was 99%. 
