@@ -100,67 +100,55 @@ Our team also pulled Open Source data with Charging Station Location and cleaned
 - [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
 
 
-### In Progress
-
-Our team is working to separate extract from the column of County and State in the Count Data set. 
-California registration data needs to be pushed to Table ev_registration 
-
-
-
-
 # Machine Learning 
+## Models Used:
+Linear Regression 
+Unsupervised - K means 
+Unsupervised - Hierarchical 
+Deep learning
 
-From ev_registration table we used k-means clustering to classify our unlabeled data. ML_Test_Code.ipynb holds our code for this model.
+## Description of data preprocessing:
+- We gathered data from state DMVs for currently registered EVs for states CA, FL, MI, NY, TX, and NJ
+- We also downloaded US county data and household income data 
+- We downloaded althernative fueling stations data from transportation site
+- Used pandas jupyter notebook to clean and insert in AWS postgres DB
 
-We have six states EV Registrations data, we will combine with household income data, which will be our train model. Using this we will predict the EV Registrations in other states. 
+## Description of feature engineering and the feature selection, including their decisionmaking process: 
+	- Total personal household income of county in years 2019, 2020 & 2021 so as to see the impact on charging stations and EV adoptions
+	- Counts of EVs currently registered per county to see the impact on charging stations
+	- Current counts of alternative fueling stations per county
 
-We will combine our household income with charging stations by County to classify our unsupervised learning. 
- 
+## Description of how data was split into training and testing sets
+For linear, K means and hierarchical, data is not divided into training and testing. Best features were picked using PCA in unsupervised
+For Deep learning, ???
 
+## Explanation of model choice, including limitations and benefits 
+Liner regression as we wanted to see the impact of income on EV adoption, and then the impact of income and EVs adoptions impact on charging stations count
+Unsupervised models were used to see the clusters of income , EV adoptions and gfueling stations count
+Deep learning was used to find the relation with unsummarized data 
+Neural networks are prone to overfitting and can be more difficult to train than a straightforward logistic regression model
+Deep learning also required lot of rows to train
 
+## Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
+We started out with linear, and wanted to see clusters with the unspervised, and needed to see relationships using unsummarized data with deep learning model
 
+## Description of how they have trained the model thus far, and any additional training that will take place 
+In Linear, total household income column was reshaped and then fit into the model along with EVs count
+In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict
+???
 
-
-Datasets median income & registered number of EV vehicles in county
-
-*Supervised Classification Model will answer how likely are you to buy an Electric Vehicle based on your income and location? Will you buy: Yes or No?*
-
-Planning to have a precision and recall threshold of above 50% for model created. 
-
-Inputs - EV's registered in county (zip code), household income by county (2020, 2021), # of charging stations in county, access_code,
-fuel_type_code, registration_valid_date, vehicle_name
-
-Outputs - 0 = "No, will not buy", 1 = "Yes will buy" 
-
-Possibly create decision tree using info from tables (Balanced random forest/Easy AdaBoost Classifier) 
-
-*Supervised Regression Model to forecast # of charging stations needed by county in the future.* 
-
-Inputs - Count of EV registration in county, number of predicted buyers from suprevised classification model, ratio of users to each charging station? 
-
-Outputs - graph showing predicted growth of EV cars along with number of charging stations. 
-
-Table 1: Alternative_Fueling_Station:
-longitude
-latitude
-county
-access_code
-fuel_type_code
-
-Table 2: Household_Income:
-GeoName, 2020, 2021
-
-Table 3: EV_registration:
-county, registration_valid_date, vehicle_name
+## Description of current accuracy score 
+???
 
 
-## Presentation   
 
+# Presentation   
 
+We used google slides for presentation
 - [Slides](https://docs.google.com/presentation/d/1Kmcz95mzre-Fv05gxPSwaaPtrRXq5b-j/edit#slide=id.p1)
 
 
-## Dashboard
+# Dashboard
 
 Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
 
