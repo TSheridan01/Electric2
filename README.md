@@ -135,10 +135,12 @@ We started out with linear, and wanted to see clusters with the unspervised, and
 ## Description of how they have trained the model thus far, and any additional training that will take place 
 In Linear, total household income column was reshaped and then fit into the model along with EVs count
 In Unsupervised, elbow curve determined best number of clusters, PCA was used to choose dominating features and the resulting dataframe was used to fit the model and predict
-???
+For deep learning module the data was broken up by a random state of 78 into the model from training and testing data. 
 
 ## Description of current accuracy score 
-???
+Accuracy score of model was predicting if a county had a charging station was 99%. 
+
+![This is an image](https://github.com/TSheridan01/Electric2/blob/193cf272e520ce5f47ebd5429a7a5406bc5fabf6/ML%20EV%20Accuracy.PNG)
 
 
 
