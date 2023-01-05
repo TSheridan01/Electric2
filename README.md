@@ -160,13 +160,6 @@ county, registration_valid_date, vehicle_name
 - [Slides](https://docs.google.com/presentation/d/1Kmcz95mzre-Fv05gxPSwaaPtrRXq5b-j/edit#slide=id.p1)
 
 
-![image](https://github.com/TSheridan01/Electric2/blob/609ca33c5ad7eaf08c8295b29bb29bad4128f675/Images/Slides1.png)
-
-
-![image](https://github.com/TSheridan01/Electric2/blob/609ca33c5ad7eaf08c8295b29bb29bad4128f675/Images/Slides2.png)
-
-
-
 ## Dashboard
 
 Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
