@@ -1,8 +1,6 @@
 # Electric
 Group 4 
 
-
-
 ![image](https://github.com/TSheridan01/Electric2/blob/1122ea20914e10c1787b96e5cf800c9d38a6615b/Images/Bolt1.png)
 
 
@@ -59,23 +57,23 @@ We will be using Postgres Database on AWS. Our team all has access to the databa
 An ERD diagram was created to show connections between **Electric Vehicle Registrations** to **County** to **EV Charging Stations**. 
 See ERD below.
 
-![image](https://github.com/TSheridan01/Electric2/blob/ca46e6ac2f124243c01026ec6c34847654872e11/Images/QuickDBD-export_v1.png)
+![image](https://github.com/TSheridan01/Electric2/blob/main/Images/QuickDBD-export_v1.png)
 
 - county
  
-	![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/county_static.PNG)
+	![county_static](https://github.com/TSheridan01/Electric2/blob/main/Images/county_static.PNG)
 
 - ev_registration
  
-	![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/ev_registration.PNG)
+	![ev_registration](https://github.com/TSheridan01/Electric2/blob/main/Images/ev_registration.PNG)
 
 - household_income
 
-	![image](https://github.com/TSheridan01/Electric2/blob/f3b4497ff255c043fb158ab8f157073f66b83a51/Images/income_table.PNG)
+	![income](https://github.com/TSheridan01/Electric2/blob/main/Images/income_table.PNG)
 
 - alternative_fueling_station
 
-	![image](https://github.com/TSheridan01/Electric2/blob/main/Images/station_table.PNG)
+	![station](https://github.com/TSheridan01/Electric2/blob/main/Images/station_table.PNG)
 
 
 ## Data Cleaning 
@@ -115,13 +113,13 @@ Static table of county was built too using excel file pulled online.
 
 # Machine Learning 
 ### Models Used:
-Linear Regression 
-Multiple Regression - Winning model
-Unsupervised - K means 
-Unsupervised - Hierarchical 
-Deep learning
+* Linear Regression 
+* Multiple Regression
+* Unsupervised - K means 
+* Unsupervised - Hierarchical 
+* Deep learning
 
-![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/ML_hier.png)
+	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/ML_hier.png)
 
 ### Description of data preprocessing:
 - We gathered data from state DMVs for currently registered EVs for states CA, FL, MI, NY, TX, and NJ
