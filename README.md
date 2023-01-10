@@ -173,8 +173,7 @@ We used google slides for presentation
 
 Tableau is the Data Visualization Tool currently being used for our Project and will depict the following:
 
-- [Dashboard](https://public.tableau.com/app/profile/thomas.sheridan/viz/Electirc/Dashboard1)
-
+- [Dashboard](https://public.tableau.com/app/profile/thomas.sheridan/viz/Electirc/ELECTRIC?publish=yes)
 
 - Correlation between county income and the quantity of EV Registrations
 - Average Income and Charging Station Locations 
