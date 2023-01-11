@@ -116,11 +116,11 @@ Static table of county was built too using excel file pulled online. The columns
 ### Models Used:
 * Linear Regression - We looked at the impact of total personal income/per capita income of county on EV adoption(shown in image below) and charging stations count, and also EV adoption's impact on charging stations count
 	
-	** Income impact on EV adoption count 
+	** Income's impact on EV adoption count 
 
 	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/2021income_vs_ev_count.PNG)
 
-	** Income impact on charging stations count 
+	** EV adoption's impact on charging stations count 
 
 	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/ev_count_vs_station_count.PNG)
 
@@ -188,7 +188,6 @@ We started out with linear, and wanted to see clusters with the unspervised mode
 
 We used google slides for presentation
 - [Slides](https://docs.google.com/presentation/d/1Kmcz95mzre-Fv05gxPSwaaPtrRXq5b-j/edit#slide=id.p1)
-
 
 # Dashboard
 
