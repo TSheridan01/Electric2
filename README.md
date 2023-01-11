@@ -84,13 +84,13 @@ Our team pulled datasets from below sites:
 - [Charging Station Data](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=2.113167%2C-44.582273%2C2.00&showTable=true)
 
 
-We pulled EV Registration data from California, Florida, Michigan, New York, Texas and New Jersey and cleaned it down to the format of County state, name and fips- Registration Date - Make/Model.
+We pulled EV Registration data for California, Florida, Michigan, New York, Texas and New Jersey and cleaned it down to the format of state, county name and county fips- Registration Date - Make/Model.
 
-Our team also pulled Open Source data with Charging Station Location and cleaned it into a format that shows County state, name and fips - Access Code - Fuel Type
+Our team also pulled Open Source data with Charging Station Location and cleaned it into a format that shows state, county name and county fips - Access Code - Fuel Type.
 
-Income data was pulled and filtered for counties rows only. The columns were restricted to county zip, lat, lang, fips, state - total personal income for years 2019, 2020 and 2021- per capita income 2021
+Income data was pulled and filtered for counties rows only. The columns were reduced to state, county name, county fips - total personal income for years 2019, 2020 and 2021- per capita income 2021.
 
-Static table of county was built too using excel file pulled online.
+Static table of county was built too using excel file pulled online. The columns were restricted to county name, zip, lat, lang, county fips, state, city.
 
 ### ETL Steps:
 * Jupyter Notebooks were used to extract, transform and load the data from CSV files downloaded from various sites to the AWS postgres database
@@ -106,6 +106,7 @@ Static table of county was built too using excel file pulled online.
 * Library Psycopgy2 and sqlalchemy’s create_engine function was used to insert DF data into DB tables
 * SQL queries were used to clean and manipulate data further in the DB tables such as removal of null or unknown values
 * County table data was loaded using PG admin’s load utility and then cleaned using SQL queries
+* The ETL Details of the CA and FL EV registration datasets are enlisted in the images below:
 
 	![CA ETL details](https://github.com/TSheridan01/Electric2/blob/main/Images/Slides1.png)
 
@@ -113,13 +114,33 @@ Static table of county was built too using excel file pulled online.
 
 # Machine Learning 
 ### Models Used:
-* Linear Regression 
-* Multiple Regression
-* Unsupervised - K means 
+* Linear Regression - We looked at the impact of total personal income/per capita income of county on EV adoption(shown in image below) and charging stations count, and also EV adoption's impact on charging stations count
+	
+	** Income impact on EV adoption count 
+
+	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/2021income_vs_ev_count.PNG)
+
+	** Income impact on charging stations count 
+
+	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/ev_count_vs_station_count.PNG)
+
+* Multiple Regression - We used two independent variables of per capita income and EV adoption on dependent variable of charging stations
+
+* Unsupervised - K means - We tried with features of income and charging stations count(as shown in image below), as well as with three features of income, EV adoption count and charging stations count per county (see image below)
+	
+	** Using two features:
+
+	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/k_means_income_vs_ev_cnt.PNG)
+
+	** Using three features:
+
+	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/k_means_income_vs_ev_cnt_vs_stations_cnt.PNG)	
+
 * Unsupervised - Hierarchical 
-* Deep learning
 
 	![hier_image](https://github.com/TSheridan01/Electric2/blob/main/Images/ML_hier.png)
+
+* Deep learning
 
 ### Description of data preprocessing:
 - We gathered data from state DMVs for currently registered EVs for states CA, FL, MI, NY, TX, and NJ
